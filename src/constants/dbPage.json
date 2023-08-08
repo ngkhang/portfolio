@@ -1,0 +1,230 @@
+{
+    "en": {
+        "Header": {
+            "Brand": {
+                "Name": "Logo",
+                "Url": ""
+            },
+            "Navs": [
+                {
+                    "Title": "Home",
+                    "Url": "home"
+                },
+                {
+                    "Title": "About",
+                    "Url": "about"
+                },
+                {
+                    "Title": "Project",
+                    "Url": "project"
+                },
+                {
+                    "Title": "Contact",
+                    "Url": "contact"
+                }
+            ]
+        },
+        "Home": {
+            "Id": "home",
+            "Title": "I'm a Web Developer",
+            "Avatar": "Avatar",
+            "SubTitle": "Hello, my name is",
+            "Name": "Name",
+            "Description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit iste optio suscipit neque exercitationem aliquam"
+        },
+        "About": {
+            "Id": "about",
+            "Title": "about me",
+            "SubTitle": "resume",
+            "Avatar": "Avatar",
+            "Description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit iste optio suscipit neque exercitationem aliquam",
+            "Experiences": {
+                "Title": "Experience and Education",
+                "List": [
+                    {
+                        "Id": 1,
+                        "Timeline": "2022 - 2023",
+                        "Title": "Web - Software",
+                        "Company": "FPT",
+                        "Position": "Intern",
+                        "Description": [
+                            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse fugit enim eius dolor repellat, vero,",
+                            "um dolor sit amet consectetur adipisicing",
+                            "Lorem ips elit. Esse fugit enim eius dolor repellat, vero,"
+                        ]
+                    },
+                    {
+                        "Id": 1,
+                        "Timeline": "2022 - 2023",
+                        "Title": "Web - Software",
+                        "Company": "FPT",
+                        "Position": "Intern",
+                        "Description": [
+                            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse fugit enim eius dolor repellat, vero,"
+                        ]
+                    }
+                ]
+            },
+            "Knowledges": {
+                "Title": "Knowledges",
+                "Tech": {
+                    "Title": "Technologies & tools",
+                    "List": [
+                        {
+                            "Title": "HTML",
+                            "Icon": ""
+                        },
+                        {
+                            "Title": "CSS",
+                            "Icon": ""
+                        },
+                        {
+                            "Title": "JavaScript",
+                            "Icon": ""
+                        },
+                        {
+                            "Title": "TypeScript",
+                            "Icon": ""
+                        },
+                        {
+                            "Title": "SASS/SCSS",
+                            "Icon": ""
+                        },
+                        {
+                            "Title": "Tailwind CSS",
+                            "Icon": ""
+                        },
+                        {
+                            "Title": "React JS",
+                            "Icon": ""
+                        }
+                    ]
+                },
+                "Other": {
+                    "Title": "Other(s)",
+                    "List": [
+                        {
+                            "Title": "Language",
+                            "Description": "English Read/Writing"
+                        },
+                        {
+                            "Title": "Soft skill",
+                            "Description": "Team work"
+                        }
+                    ]
+                }
+            },
+            "Activities": {
+                "Title": "Activities",
+                "List": [
+                    {
+                        "Timeline": "2018",
+                        "Title": "STEM DAY",
+                        "Position": "Voluteer",
+                        "Location": "Nhà văn hóa Thanh niên, Q1"
+                    },
+                    {
+                        "Timeline": "2019",
+                        "Title": "Earth Day",
+                        "Position": "Voluteer",
+                        "Location": "23/9"
+                    }
+                ]
+            },
+            "Certificates": {
+                "Title": "Certificate",
+                "codeVerify": [
+                    "7X7C8J2N9VLD",
+                    "Q5RN7GL8QL2W",
+                    "F2G9BE2THU4W",
+                    "PBESHJ4XJTT2"
+                ]
+            }
+        },
+        "Project": {
+            "Id": "project",
+            "Title": "my projects",
+            "SubTitle": "works",
+            "ProjectList": [
+                {
+                    "Id": 1,
+                    "Name": "ProjectName",
+                    "Thumbnail": "https://sainath055.github.io/assets/final.png",
+                    "Description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur quaerat quae, eaque omnis",
+                    "Techs": [
+                        "React JS",
+                        "TailwindCSS"
+                    ],
+                    "Url": [
+                        {
+                            "Icon": "Github",
+                            "Url": "https://"
+                        },
+                        {
+                            "Icon": "LiveView",
+                            "Url": "https://"
+                        }
+                    ]
+                }
+            ]
+        },
+        "Contact": {
+            "Id": "contact",
+            "Title": "get in touch",
+            "SubTitle": "contact",
+            "Description": "Example: I am currently seeking new opportunities, whether it be full-time employment or individual projects. I am open to exploring job prospects and collaborating on exciting projects. Please don't hesitate to reach out to me as my inbox is always open. I strive to respond promptly and provide the best possible assistance."
+        },
+        "Footer": {
+            "Title": "NgKhang "
+        },
+        "Social": [
+            {
+                "Name": "Linkedin",
+                "Url": "https://www.linkedin.com/in/ngkhang0220/",
+                "Color": "0a66c2"
+            },
+            {
+                "Name": "Github",
+                "Url": "https://github.com/ngkhang",
+                "Color": "010409"
+            }
+        ],
+        "Info": [
+            {
+                "Title": "Mail",
+                "Color": "",
+                "Content": "ngkhang0220@gmail.com"
+            },
+            {
+                "Title": "Phone",
+                "Color": "",
+                "Content": "+84 793506xxx"
+            },
+            {
+                "Title": "Address",
+                "Color": "",
+                "Content": "Ho Chi Minh, Vietnam"
+            },
+            {
+                "Title": "Birtday",
+                "Color": "",
+                "Content": "mm/dd/yyyy"
+            }
+        ],
+        "Btn": [
+            {
+                "Title": "Download CV",
+                "Color": "",
+                "Url": "#",
+                "Bg": ""
+            },
+            {
+                "Title": "Send message",
+                "Color": "",
+                "Url": "#",
+                "Bg": ""
+            }
+        ]
+    },
+    "vi": {}
+}

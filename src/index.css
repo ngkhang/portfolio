@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+	@apply font-poppins;
+}
+
+:root {
+	--purple: #7b1fa2;
+	--violet: #3aa4b7;
+	--pink: #d89b62;
+	--gray: rgba(30, 37, 48, 0.07);
+}
+
+@layer components {
+	.magic-text {
+		animation: background-pan 2.5s linear infinite;
+		background: linear-gradient(
+			to right,
+			var(--purple),
+			var(--violet),
+			var(--pink),
+			var(--purple)
+		);
+		background-size: 200%;
+		background-clip: text;
+		-webkit-background-clip: text;
+		-webkit-text-fill-color: transparent;
+		white-space: nowrap;
+	}
+}
+
+h3 {
+	@apply mb-1 font-medium font-poppins text-2xl;
+}
+
+@keyframes background-pan {
+	from {
+		background-position: 0% center;
+	}
+
+	to {
+		background-position: -200% center;
+	}
+}
+
+.slick-prev:before,
+.slick-next:before {
+	color: #9a9a9a;
+	font-size: 25px;
+	opacity: 0.5;
+}
+.slick-prev:hover,
+.slick-next:hover {
+	opacity: 1;
+}
