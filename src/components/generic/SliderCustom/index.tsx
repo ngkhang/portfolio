@@ -4,7 +4,7 @@ import Slider from "react-slick";
 const settings = {
 	dots: true,
 	speed: 500,
-	slidesToShow: 4,
+	slidesToShow: 3,
 	// fade: true,
 
 	slidesToScroll: 4,
@@ -18,18 +18,10 @@ const settings = {
 		{
 			breakpoint: 1024,
 			settings: {
-				slidesToShow: 3,
+				slidesToShow: 2,
 				slidesToScroll: 3,
 				infinite: true,
 				dots: true,
-			},
-		},
-		{
-			breakpoint: 600,
-			settings: {
-				slidesToShow: 2,
-				slidesToScroll: 2,
-				initialSlide: 2,
 			},
 		},
 		{

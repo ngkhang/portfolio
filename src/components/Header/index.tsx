@@ -7,9 +7,9 @@ function Header() {
 	return (
 		<>
 			<div className="flex justify-center bg-white/95 font-medium shadow-md shadow-slate-200 fixed w-full z-10">
-				<div className="w-full md:w-2/3 flex justify-between items-center">
+				<div className="w-full px-3 flex justify-between items-center lg:w-4/5 lg:px-0">
 					<a
-						className="inline-block p-1 ml-2 opacity-80 hover:opacity-100"
+						className="inline-block py-1 opacity-80 hover:opacity-100 lg:py-2"
 						href={`#${Brand.Url}`}
 					>
 						<img
@@ -25,7 +25,7 @@ function Header() {
 									<a
 										key={ele.Title}
 										href={`#${ele.Url}`}
-										className="inline-block py-1 px-2 mr-1 text-xs text-[#525252]/80 hover:text-[#171717]"
+										className="inline-block py-1 px-2 mr-1 text-xs md:text-sm text-[#525252]/80 hover:text-[#171717]"
 									>
 										{ele.Title}
 									</a>

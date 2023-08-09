@@ -165,6 +165,26 @@
                             "Url": "https://"
                         }
                     ]
+                },
+                {
+                    "Id": 1,
+                    "Name": "ProjectName",
+                    "Thumbnail": "https://sainath055.github.io/assets/final.png",
+                    "Description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur quaerat quae, eaque omnis",
+                    "Techs": [
+                        "React JS",
+                        "TailwindCSS"
+                    ],
+                    "Url": [
+                        {
+                            "Icon": "Github",
+                            "Url": "https://"
+                        },
+                        {
+                            "Icon": "LiveView",
+                            "Url": "https://"
+                        }
+                    ]
                 }
             ]
         },

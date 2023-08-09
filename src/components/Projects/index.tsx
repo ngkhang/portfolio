@@ -7,18 +7,25 @@ const { Id, Title, SubTitle, ProjectList } = DataPage.en.Project;
 function Projects() {
 	return (
 		<>
-			<div id={Id} className="md:flex justify-center bg-white">
-				<div className="md:w-3/40 py-5">
+			<div id={Id} className="lg:flex justify-center bg-white">
+				<div className="lg:w-4/5 pt-5 lg:pt-10">
 					<ContainerTitle {...{ Title, SubTitle }} />
-					<div className="md:w-full box-border mx-4">
-						{ProjectList.map((item) => {
+					<div className="lg:w-full box-border px-4 lg:bg-[#484747] lg:p-10 lg:pt-5">
+						{ProjectList.map((item, index) => {
 							return (
 								<>
 									<div
 										key={item.Id}
-										className="md:text-[#eae7ea] mb-4 p-3 rounded-md bg-slate-200 md:flex items-center w-full relative"
+										className={`text-[#eae7ea] mt-5 p-3 rounded-md items-center w-full relative bg-[#484747] lg:flex lg:mt-10 lg:rounded-lg ${
+											index % 2 !== 0
+												? "justify-end"
+												: "justify-start"
+										}
+										}`}
 									>
-										<div className="md:p-3 flex justify-center mb-2 overflow-hidden">
+										<div
+											className={`flex justify-center mb-2 overflow-hidden rounded-md lg:m-0 lg:w-2/3 lg:mb-0 lg:rounded-lg`}
+										>
 											<a
 												href={item.Url[1].Url}
 												className="inline-block hover:scale-105 transition-all"
@@ -26,13 +33,19 @@ function Projects() {
 												<img
 													src={item.Thumbnail}
 													alt="Thumbnail project"
-													className="w-full rounded"
+													className="w-full"
 												/>
 											</a>
 										</div>
-										<div className="md:bg-[#484747] md:p-3 box-border md:rounded-md md:shadow-md">
-											<div className="flex justify-between items-center mb-1">
-												<span className="text-lg tracking-wide font-medium">
+										<div
+											className={`box-border lg:absolute lg:p-4 lg:rounded-md lg:shadow-md lg:bg-white/50 lg:backdrop-blur-sm ${
+												index % 2 !== 0
+													? "left-0"
+													: "right-0"
+											}`}
+										>
+											<div className="flex justify-between items-center mb-1 lg:mb-2">
+												<span className="text-lg tracking-wide font-medium lg:text-xl">
 													{item.Name}
 												</span>
 												<div className="flex items-center">
@@ -40,10 +53,13 @@ function Projects() {
 														return (
 															<>
 																<a
+																	key={
+																		url.Icon
+																	}
 																	href={
 																		url.Url
 																	}
-																	className="inline-block ml-2 text-xl p-1 rounded-full hover:bg-white"
+																	className="inline-block ml-2 text-xl p-1 rounded-full hover:bg-white hover:text-[#484747] lg:text-2xl"
 																>
 																	{Icons[
 																		url.Icon
@@ -54,10 +70,10 @@ function Projects() {
 													})}
 												</div>
 											</div>
-											<p className="text-xs leading-5 tracking-wide mb-2">
+											<p className="text-sm leading-5 tracking-wide mb-2 lg:mb-4">
 												{item.Description}
 											</p>
-											<span className="text-xs italic">
+											<span className="text-xs italic lg:text-sm">
 												{`#${[...item.Techs].join(
 													" #"
 												)}`}
