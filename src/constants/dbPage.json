@@ -29,38 +29,35 @@
             "Title": "I'm a Web Developer",
             "Avatar": "Avatar",
             "SubTitle": "Hello, my name is",
-            "Name": "Name",
-            "Description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit iste optio suscipit neque exercitationem aliquam"
+            "Name": "Khang Nguyen",
+            "Description": "I hope will be opportune to apply for a front-end web developer position at your company. I can use my knowledge to complete duties and add more practical experience."
         },
         "About": {
             "Id": "about",
             "Title": "about me",
             "SubTitle": "resume",
             "Avatar": "Avatar",
-            "Description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit iste optio suscipit neque exercitationem aliquam",
-            "Experiences": {
+            "Description": "Currently, I'm a React JS Developer. With a passion for this industry, I want to become a full-stack developer in the forthcoming.",
+            "ExpEdu": {
                 "Title": "Experience and Education",
-                "List": [
+                "Education": [
                     {
-                        "Id": 1,
-                        "Timeline": "2022 - 2023",
-                        "Title": "Web - Software",
-                        "Company": "FPT",
-                        "Position": "Intern",
+                        "Timeline": "08/2018 - 2023",
+                        "OrgName": "Ho Chi Minh University of Technology and Education",
+                        "Position": "Electronics and Communication Engineering Technology",
                         "Description": [
-                            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse fugit enim eius dolor repellat, vero,",
-                            "um dolor sit amet consectetur adipisicing",
-                            "Lorem ips elit. Esse fugit enim eius dolor repellat, vero,"
+                            "GPA: 7.2/10"
                         ]
-                    },
+                    }
+                ],
+                "Experience": [
                     {
-                        "Id": 1,
-                        "Timeline": "2022 - 2023",
-                        "Title": "Web - Software",
-                        "Company": "FPT",
+                        "Timeline": "09/2022 - 03/2023",
+                        "Title": "ReactJs Developer",
+                        "NameCompany": "FPT Software",
                         "Position": "Intern",
                         "Description": [
-                            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse fugit enim eius dolor repellat, vero,"
+                            "Technology: TyperScript, ReactJs, Redux, React Router DOM, Redux-Saga, SCSS"
                         ]
                     }
                 ]
@@ -119,25 +116,70 @@
                 "List": [
                     {
                         "Timeline": "2018",
-                        "Title": "STEM DAY",
-                        "Position": "Voluteer",
-                        "Location": "Nhà văn hóa Thanh niên, Q1"
+                        "Title": "STEM Day",
+                        "Position": "Collaborator",
+                        "Location": "Cultural House of Youth in Ho Chi Minh"
                     },
                     {
                         "Timeline": "2019",
-                        "Title": "Earth Day",
-                        "Position": "Voluteer",
-                        "Location": "23/9"
+                        "Title": "Earth Day 2019",
+                        "Position": "Volunteer",
+                        "Location": "September 23rd, Park"
                     }
                 ]
             },
             "Certificates": {
                 "Title": "Certificate",
-                "codeVerify": [
-                    "7X7C8J2N9VLD",
-                    "Q5RN7GL8QL2W",
-                    "F2G9BE2THU4W",
-                    "PBESHJ4XJTT2"
+                "List": [
+                    {
+                        "Name": "React Developer Certified Level 1",
+                        "Organization": "React Certification",
+                        "Code": "4B19Q8B",
+                        "StartDate": "2023/02/20",
+                        "EndDate": "2026/02/20",
+                        "Url": "https://interstate21.com/certificate/?code=4B19Q8B",
+                        "Thumbnail": "ReactCertificate"
+                    },
+                    {
+                        "Name": "Introduction to CSS3",
+                        "Organization": "Coursera",
+                        "Code": "9P4C8L2KT5JR",
+                        "StartDate": "2023-07-02",
+                        "EndDate": "",
+                        "Url": "https://www.coursera.org/account/accomplishments/certificate/9P4C8L2KT5JR"
+                    },
+                    {
+                        "Name": "Introduction to Web Development with HTML, CSS, JavaScript",
+                        "Organization": "Coursera",
+                        "Code": "PBESHJ4XJTT2",
+                        "StartDate": "2023/06/13",
+                        "EndDate": "2026/02/20",
+                        "Url": "https://www.coursera.org/account/accomplishments/certificate/PBESHJ4XJTT2"
+                    },
+                    {
+                        "Name": "Advanced Styling with Responsive Design",
+                        "Organization": "Coursera",
+                        "Code": "Q5RN7GL8QL2W",
+                        "StartDate": "2022/12/06",
+                        "EndDate": "",
+                        "Url": "https://www.coursera.org/account/accomplishments/certificate/Q5RN7GL8QL2W"
+                    },
+                    {
+                        "Name": "Interactivity with JavaScript",
+                        "Organization": "Coursera",
+                        "Code": "7X7C8J2N9VLD",
+                        "StartDate": "2022/09/23",
+                        "EndDate": "",
+                        "Url": "https://www.coursera.org/account/accomplishments/certificate/7X7C8J2N9VLD"
+                    },
+                    {
+                        "Name": "Introduction to HTML5",
+                        "Organization": "Coursera",
+                        "Code": "F2G9BE2THU4W",
+                        "StartDate": "2022/08/17",
+                        "EndDate": "",
+                        "Url": "https://www.coursera.org/account/accomplishments/certificate/F2G9BE2THU4W"
+                    }
                 ]
             }
         },
@@ -148,41 +190,49 @@
             "ProjectList": [
                 {
                     "Id": 1,
-                    "Name": "ProjectName",
-                    "Thumbnail": "https://sainath055.github.io/assets/final.png",
+                    "Name": "Movie Ticket Booking",
+                    "Thumbnail": "BookingMovieThumbnail.png",
                     "Description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur quaerat quae, eaque omnis",
                     "Techs": [
                         "React JS",
-                        "TailwindCSS"
+                        "TypeScript",
+                        "Redux",
+                        "React Saga",
+                        "React Router DOM",
+                        "SCSS"
                     ],
                     "Url": [
                         {
                             "Icon": "Github",
-                            "Url": "https://"
+                            "Url": ""
                         },
                         {
                             "Icon": "LiveView",
-                            "Url": "https://"
+                            "Url": "https://bookingmovie-ojql.onrender.com/"
                         }
                     ]
                 },
                 {
-                    "Id": 1,
-                    "Name": "ProjectName",
-                    "Thumbnail": "https://sainath055.github.io/assets/final.png",
+                    "Id": 2,
+                    "Name": "Project_Name",
+                    "Thumbnail": "",
                     "Description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur quaerat quae, eaque omnis",
                     "Techs": [
                         "React JS",
-                        "TailwindCSS"
+                        "TypeScript",
+                        "Redux",
+                        "React Saga",
+                        "React Router DOM",
+                        "SCSS"
                     ],
                     "Url": [
                         {
                             "Icon": "Github",
-                            "Url": "https://"
+                            "Url": ""
                         },
                         {
                             "Icon": "LiveView",
-                            "Url": "https://"
+                            "Url": ""
                         }
                     ]
                 }
@@ -192,19 +242,22 @@
             "Id": "contact",
             "Title": "get in touch",
             "SubTitle": "contact",
-            "Description": "Example: I am currently seeking new opportunities, whether it be full-time employment or individual projects. I am open to exploring job prospects and collaborating on exciting projects. Please don't hesitate to reach out to me as my inbox is always open. I strive to respond promptly and provide the best possible assistance."
+            "Description": "I am currently seeking new opportunities, whether it be full-time employment or individual projects. I am open to exploring job prospects and collaborating on exciting projects. Please don't hesitate to reach out to me as my inbox is always open. I strive to respond promptly and provide the best possible assistance."
         },
         "Footer": {
-            "Title": "NgKhang "
+            "Title": "ngkhang_dev",
+            "Description": "I have maked this portfolio with all heart ❤️"
         },
         "Social": [
             {
                 "Name": "Linkedin",
+                "Short": "@ngkhang0220",
                 "Url": "https://www.linkedin.com/in/ngkhang0220/",
                 "Color": "0a66c2"
             },
             {
                 "Name": "Github",
+                "Short": "ngkhang",
                 "Url": "https://github.com/ngkhang",
                 "Color": "010409"
             }
@@ -218,7 +271,7 @@
             {
                 "Title": "Phone",
                 "Color": "",
-                "Content": "+84 793506xxx"
+                "Content": "(+84)793506177"
             },
             {
                 "Title": "Address",
@@ -228,7 +281,7 @@
             {
                 "Title": "Birtday",
                 "Color": "",
-                "Content": "mm/dd/yyyy"
+                "Content": "26/02/2000"
             }
         ],
         "Btn": [

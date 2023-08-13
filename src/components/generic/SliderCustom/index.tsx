@@ -6,14 +6,12 @@ const settings = {
 	speed: 500,
 	slidesToShow: 3,
 	// fade: true,
-
 	slidesToScroll: 4,
 	initialSlide: 0,
 	centerMode: true,
 	className: "center",
 	infinite: true,
 	centerPadding: "20px",
-
 	responsive: [
 		{
 			breakpoint: 1024,

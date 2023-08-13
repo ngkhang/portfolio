@@ -22,7 +22,7 @@
     "noUnusedParameters": true,
     "noFallthroughCasesInSwitch": true,
     /* Config path*/
-    "baseUrl": ".",
+    "baseUrl": "./",
     "paths": {
       "~/*": [
         "src/*"

@@ -8,7 +8,7 @@ function ContainerTitle({ Title, SubTitle, Color }: TitleProp) {
 	return (
 		<>
 			<div className="font-rubik p-10 uppercase relative w-full text-center">
-				<h2 className="text-3xl font-bold tracking-wider lg:text-6xl lg:tracking-widest">
+				<h2 className="text-3xl font-bold tracking-wider lg:text-6xl lg:tracking-widest relative z-[1]">
 					{Title}
 				</h2>
 				<span

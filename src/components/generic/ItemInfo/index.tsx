@@ -10,9 +10,11 @@ interface ItemProps {
 
 function ItemInfo({ Width = "w-full", Bg, Title, Color, Content }: ItemProps) {
 	return (
-		<div className={`${Width} mb-2 lg:mb-3 lg:pr-3 lg:w-1/2`}>
+		<div
+			className={`${Width} mb-2 md:mb-4 lg:mb-3 md:pr-4 lg:pr-3 lg:w-full`}
+		>
 			<div
-				className={`${Bg} flex items-center rounded-md pl-2 py-1 bg-slate-200/90`}
+				className={`${Bg} flex items-center rounded-md pl-2 py-1 bg-slate-200/90  lg:shadow-insetBox`}
 			>
 				<span
 					className="inline-block mr-2 p-2 rounded shadow-lg shadow-slate-300 bg-white text-lg lg:text-xl"
