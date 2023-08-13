@@ -1,5 +1,5 @@
-import Avatar from "assets/images/Avatar.jpg";
-import Avatar2 from "assets/images/Avatar(2).jpg";
+import Avatar from "assets/images/Avatar.png";
+import Avatar2 from "assets/images/Avatar(2).png";
 import Logo from "assets/images/Logo.svg";
 import ReactCertificate from "assets/images/ReactCertificate.png";
 

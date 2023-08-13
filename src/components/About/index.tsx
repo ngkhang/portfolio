@@ -29,6 +29,7 @@ function About() {
 							<div className="mb-2 lg:mb-6 w-3/5 lg:w-3/4 bg-white">
 								<img
 									src={Images[`${InfoPage.Avatar}2`]}
+									// src="/images/Avatar(2).jpg"
 									alt="Avatar"
 									className="w-full aspect-square hover:scale-125 object-cover avatarAnimation"
 								/>
@@ -216,7 +217,7 @@ function About() {
 												className="w-full h-full object-cover bg-center hover:scale-110 transition-all"
 												src={
 													e.Thumbnail
-														? `./src/assets/images/${e.Thumbnail}.png`
+														? Images[e.Thumbnail]
 														: getCertificate(e.Code)
 												}
 											/>

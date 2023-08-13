@@ -29,7 +29,6 @@ function Projects() {
 										href={item.Url[1].Url}
 										className="inline-block hover:scale-105 transition-all"
 									>
-										{/*  */}
 										<img
 											src={
 												item.Thumbnail
