@@ -43,7 +43,8 @@
                 "Education": [
                     {
                         "Timeline": "08/2018 - 2023",
-                        "OrgName": "Ho Chi Minh University of Technology and Education",
+                        "Title": "Ho Chi Minh University of Technology and Education",
+                        "NameCompany": "",
                         "Position": "Electronics and Communication Engineering Technology",
                         "Description": [
                             "GPA: 7.2/10"
@@ -146,7 +147,8 @@
                         "Code": "9P4C8L2KT5JR",
                         "StartDate": "2023-07-02",
                         "EndDate": "",
-                        "Url": "https://www.coursera.org/account/accomplishments/certificate/9P4C8L2KT5JR"
+                        "Url": "https://www.coursera.org/account/accomplishments/certificate/9P4C8L2KT5JR",
+                        "Thumbnail": ""
                     },
                     {
                         "Name": "Introduction to Web Development with HTML, CSS, JavaScript",
@@ -154,7 +156,8 @@
                         "Code": "PBESHJ4XJTT2",
                         "StartDate": "2023/06/13",
                         "EndDate": "2026/02/20",
-                        "Url": "https://www.coursera.org/account/accomplishments/certificate/PBESHJ4XJTT2"
+                        "Url": "https://www.coursera.org/account/accomplishments/certificate/PBESHJ4XJTT2",
+                        "Thumbnail": ""
                     },
                     {
                         "Name": "Advanced Styling with Responsive Design",
@@ -162,7 +165,8 @@
                         "Code": "Q5RN7GL8QL2W",
                         "StartDate": "2022/12/06",
                         "EndDate": "",
-                        "Url": "https://www.coursera.org/account/accomplishments/certificate/Q5RN7GL8QL2W"
+                        "Url": "https://www.coursera.org/account/accomplishments/certificate/Q5RN7GL8QL2W",
+                        "Thumbnail": ""
                     },
                     {
                         "Name": "Interactivity with JavaScript",
@@ -170,7 +174,8 @@
                         "Code": "7X7C8J2N9VLD",
                         "StartDate": "2022/09/23",
                         "EndDate": "",
-                        "Url": "https://www.coursera.org/account/accomplishments/certificate/7X7C8J2N9VLD"
+                        "Url": "https://www.coursera.org/account/accomplishments/certificate/7X7C8J2N9VLD",
+                        "Thumbnail": ""
                     },
                     {
                         "Name": "Introduction to HTML5",
@@ -178,7 +183,8 @@
                         "Code": "F2G9BE2THU4W",
                         "StartDate": "2022/08/17",
                         "EndDate": "",
-                        "Url": "https://www.coursera.org/account/accomplishments/certificate/F2G9BE2THU4W"
+                        "Url": "https://www.coursera.org/account/accomplishments/certificate/F2G9BE2THU4W",
+                        "Thumbnail": ""
                     }
                 ]
             }
@@ -189,12 +195,13 @@
             "SubTitle": "works",
             "ProjectList": [
                 {
-                    "Id": 1,
+                    "Id": "bookingmovie",
                     "Name": "Movie Ticket Booking",
-                    "Thumbnail": "BookingMovieThumbnail.png",
-                    "Description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur quaerat quae, eaque omnis",
+                    "Thumbnail": "BookingMovie",
+                    "Description": "This project is a web application that allows users to book tickets for theaters. Users search for movies or can view showtimes for specific theaters. After that, they can enter their contact information and payment details for their's movie.",
+                    "ShortDescription": "Users search for movies or can view showtimes for specific theaters. After that, they can enter their contact information and payment details for their's movie.",
                     "Techs": [
-                        "React JS",
+                        "ReactJS",
                         "TypeScript",
                         "Redux",
                         "React Saga",
@@ -209,30 +216,6 @@
                         {
                             "Icon": "LiveView",
                             "Url": "https://bookingmovie-ojql.onrender.com/"
-                        }
-                    ]
-                },
-                {
-                    "Id": 2,
-                    "Name": "Project_Name",
-                    "Thumbnail": "",
-                    "Description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur quaerat quae, eaque omnis",
-                    "Techs": [
-                        "React JS",
-                        "TypeScript",
-                        "Redux",
-                        "React Saga",
-                        "React Router DOM",
-                        "SCSS"
-                    ],
-                    "Url": [
-                        {
-                            "Icon": "Github",
-                            "Url": ""
-                        },
-                        {
-                            "Icon": "LiveView",
-                            "Url": ""
                         }
                     ]
                 }

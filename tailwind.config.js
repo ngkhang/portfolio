@@ -8,9 +8,9 @@ export default {
 				rubik: ["Rubik", "sans-serif"],
 			},
 			backgroundImage: {
-				"blob-animation": "url('assets/images/BlobAnimation.svg')",
-				"dot-pattern": "url('')",
-				"contact-texture": "url('assets/images/BlobBackground.svg')",
+				"blob-animation": "url('/assets/images/BlobAnimation.svg')",
+				"dot-pattern": "url('/assets/images/')",
+				"contact-texture": "url('/assets/images/BlobBackground.svg')",
 			},
 			boxShadow: {
 				insetBox:

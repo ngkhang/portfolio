@@ -1,8 +1,8 @@
 import { DataPage } from "~/constants";
 import ContainerTitle from "../generic/ContainerTitle";
-import { Icons } from "~/helpers";
-import ItemInfo from "../generic/ItemInfo";
 import { v4 as uuidv4 } from "uuid";
+import BtnSocial from "../generic/Btn/Social";
+import ContainerInfo from "../generic/Container/Info";
 
 const { Id, Title, SubTitle, Description } = DataPage.en.Contact;
 const { Social, Info, Btn } = DataPage.en;
@@ -22,34 +22,20 @@ function Contact() {
 								{Description}
 							</p>
 						</div>
-						<div className="w-[60%] lg:w-2/3 lg:flex flex-wrap lg:order-3">
-							{Info.map((item) => {
-								return (
-									<ItemInfo
-										Width="xl:w-1/2"
-										key={item.Title}
-										Bg="bg-[#e0e0e0]"
-										{...item}
-									/>
-								);
-							})}
-						</div>
+						<ContainerInfo
+							StyleParent="w-[60%] lg:w-2/3 md:flex flex-wrap lg:order-3"
+							StyleChildren="w-full lg:w-1/2"
+							data={Info}
+						/>
 						<div className="w-[40%] pl-3 lg:pl-8 lg:w-1/3 lg:order-2">
 							<div className="mb-3 lg:mb-4">
 								{Social.map((e) => {
 									return (
-										<a
+										<BtnSocial
 											key={uuidv4()}
-											href={e.Url}
-											target="_blank"
-											title={e.Url}
-											className="inline-block mr-2 lg:mr-2 p-2 lg:p-3 bg-white rounded-full opacity-90 hover:opacity-100 text-base lg:text-2xl shadow-lg"
-											style={{
-												color: `#${e.Color}`,
-											}}
-										>
-											{Icons[e.Name]()}
-										</a>
+											ClassName="rounded-full mr-2 lg:mr-2 p-2 lg:p-3"
+											{...e}
+										/>
 									);
 								})}
 							</div>

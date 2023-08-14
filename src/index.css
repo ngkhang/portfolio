@@ -34,8 +34,8 @@ body {
 	}
 	.avatarAnimation {
 		border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
-		animation: morph 8s ease-in-out infinite;
-		transition: all 2s ease-in-out;
+		animation: morph 4s ease-in-out infinite;
+		transition: all 1.5s ease-in-out;
 	}
 }
 
